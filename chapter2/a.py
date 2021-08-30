@@ -9,10 +9,7 @@ nameList = bs.findAll('span', {'class': 'green'})
 for name in nameList:
     print(name.get_text())
 
-
-
-
-
+print("으네는 소스코드를 바꿔써")
 """
 from urllib.request import urlopen
 from bs4 import BeautifulSoup
